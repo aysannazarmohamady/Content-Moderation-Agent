@@ -15,38 +15,6 @@ This agent serves as a practical implementation of AI agents for content moderat
 - **Comprehensive Evaluation**: Detailed metrics to measure performance across different models
 - **Feedback Mechanism**: System for continuous improvement through user feedback
 
-## Project Structure
-
-```
-content-moderation-agent/
-├── data/                      # Data directory
-│   ├── raw/                   # Raw data files
-│   └── processed/             # Processed data files
-├── models/                    # Saved models
-├── notebooks/                 # Jupyter notebooks for analysis
-├── src/                       # Source code
-│   ├── agent/                 # Agent implementation
-│   │   ├── __init__.py
-│   │   ├── moderator.py       # Main agent class
-│   │   └── utils.py           # Helper functions
-│   ├── data/                  # Data management
-│   │   ├── __init__.py
-│   │   ├── loader.py          # Data loading
-│   │   └── processor.py       # Data processing
-│   ├── models/                # ML models
-│   │   ├── __init__.py
-│   │   ├── classifier.py      # Classification models
-│   │   └── embeddings.py      # Text embeddings
-│   └── utils/                 # General utilities
-│       ├── __init__.py
-│       ├── logger.py          # Logging system
-│       └── evaluation.py      # Model evaluation
-├── tests/                     # Tests
-├── app.py                     # Main application
-├── requirements.txt           # Dependencies
-├── setup.py                   # Installation setup
-└── README.md                  # Project documentation
-```
 
 ## Installation
 
